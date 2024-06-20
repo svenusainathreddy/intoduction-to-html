@@ -1,3 +1,24 @@
+public class Cricketer {
+	// instance variables
+	int jerseyNo;
+	String cricketrName;
+	// static variables
+	static int countryId;
+	static String countryName;
+	public static void main(String[] args) {
+		Cricketer cricketer = new Cricketer();
+		System.out.println("Good Morning !!");
+		System.out.println(countryId);//
+		System.out.println(countryName);//
+		// Cannot make a static reference to the non-static field jerseyNo
+		System.out.println(cricketer.jerseyNo);
+		// Cannot make a static reference to the non-static field cricketrName
+		System.out.println(cricketer.cricketrName);// 
+	}
+}
+                         (OR)
+
+
 public class Person {
 	int personAge;
 	String personName;
