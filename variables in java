@@ -1,0 +1,36 @@
+public class Person {
+	int personAge;
+	String personName;
+	static int instID=777;
+	static String instName="vcube";
+    public static void main(String[] args) {
+    	Person p = new Person();
+    	p.personAge=23;
+    	p.personName="sai";
+    	System.out.println("hello main method");
+    	System.out.println(instID);
+    	System.out.println(instName);
+    	System.out.println(p.personAge);
+    	System.out.println(p.personName);
+    	System.out.println("object 1****************");
+    	Person p1 = new Person();
+    	p1.personAge=34;
+    	p1.personName="venu";
+    int instID=888;
+    String instName="rr";
+    	System.out.println("institution Id:"+ instID);
+    	System.out.println("institution Name:"+instName);
+    	System.out.println("personAge :"+ p1.personAge);
+    	System.out.println("personName :"+ p1.personName);
+    	System.out.println("object 2****************");
+    	Person p2 = new Person();
+    	p2.personAge=36;
+    	p2.personName="abhi";
+    	System.out.println("institution Id:"+ instID);
+    	System.out.println("institution Name:"+instName);
+    	System.out.println("personAge :"+ p2.personAge);
+    	System.out.println("personName :"+ p2.personName);
+    	System.out.println("object 2****************");
+    	
+    }
+}
